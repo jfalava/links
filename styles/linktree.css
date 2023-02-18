@@ -1,0 +1,50 @@
+@font-face {    font-family: 'mastodon';    src: url('../resources/mastodon.otf') format('opentype');       }
+.mastodon   {    font-family: 'mastodon', sans-serif; transition: 0.5s; }
+.mastodon:hover {  background: rgb(99,100,255); background: linear-gradient(90deg, rgba(99,100,255,1) 0%, rgba(86,58,204,1) 0%); color: white;  padding: 4px;   }
+.mastodon-icon { vertical-align:middle;  z-index: 1; }
+
+@font-face {    font-family: 'keybase';    src: url('../resources/keybase.woff') format('woff');            }
+.keybase    {   font-family: 'keybase', sans-serif;  transition: 0.5s;  }
+.keybase:hover  {   background: rgb(3,169,244); background: linear-gradient(30deg, rgba(3,169,244,1) 0%, rgba(247,108,32,1) 100%);  color: white;   padding: 4px;   }
+.keybase-icon { vertical-align:middle;  z-index: 1; }
+
+@font-face {    font-family: 'applemusic';    src: url('../resources/applemusic.otf') format('opentype');   }
+.applemusic {    font-family: 'applemusic', sans-serif; transition: 0.5s;   }
+.applemusic:hover {  background-color: #fa2740; color:rgb(255, 255, 255);  padding: 4px;   }
+.applemusic-icon { vertical-align:middle;  z-index: 1; }
+
+@font-face {    font-family: 'twitter';    src: url('../resources/twitter.woff') format('woff');    }
+.twitter    {    font-family: 'twitter', sans-serif; transition: 0.5s;  }
+.twitter:hover {  background-color: black; color: white;  border: 1px solid #03a9f4;  padding: 4px;   }
+.twitter-icon { vertical-align:middle;  z-index: 1; }
+
+@font-face {    font-family: 'github';    src: url('../resources/github.otf') format('truetype');           }
+.github     {    font-family: 'github', sans-serif; transition: 0.5s;    }
+.github:hover   {   background: rgb(36,41,47);  background: linear-gradient(90deg, rgba(36,41,47,1) 0%, rgba(43,42,42,1) 100%); color:white; padding: 4px;   }
+.github-icon { vertical-align:middle;  z-index: 1; }
+
+@font-face {    font-family: 'linkedin';    src: url('../resources/linkedin.ttf') format('truetype');       }
+.linkedin   {    font-family: 'linkedin', sans-serif; transition: 0.5s; }
+.linkedin:hover {  background: rgb(240,183,168);    background: linear-gradient(90deg, rgba(240,183,168,1) 0%, rgba(10,102,194,1) 100%); color: white; padding: 4px;   }
+.linkedin-icon { vertical-align:middle;  z-index: 1; }
+
+.links-container {
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    background-color: #dcdcdc;
+    color: black;
+    padding: 6px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-radius: 7px;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 1.7em;
+    }
+
+.link-container:hover {
+   box-shadow: 10px 5px 5px black;
+    }

@@ -1,0 +1,51 @@
+@viewport {    width: device-width ;    zoom: 1.0 ;} 
+@font-face {    font-family: 'name';    src: url('../resources/name.ttf') format('opentype');  }
+@font-face {    font-family: 'spoiler';    src: url('../resources/spoiler.ttf') format('truetype');  }
+@font-face {    font-family: 'mail';        src: url('../resources/mail.otf') format('opentype');     }
+
+body {
+    background-color: #333333;
+    opacity: 1;
+    background-image:  linear-gradient(30deg, #252526 12%, transparent 12.5%, transparent 87%, #252526 87.5%, #252526), linear-gradient(150deg, #252526 12%, transparent 12.5%, transparent 87%, #252526 87.5%, #252526), linear-gradient(30deg, #252526 12%, transparent 12.5%, transparent 87%, #252526 87.5%, #252526), linear-gradient(150deg, #252526 12%, transparent 12.5%, transparent 87%, #252526 87.5%, #252526), linear-gradient(60deg, #25252677 25%, transparent 25.5%, transparent 75%, #25252677 75%, #25252677), linear-gradient(60deg, #25252677 25%, transparent 25.5%, transparent 75%, #25252677 75%, #25252677);
+    background-size: 80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+    color: #ebeaea;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(81, 125, 237);
+}
+a:visited {
+    color: rgb(130, 84, 222);
+}
+
+a:hover {
+    color: rgb(62, 135, 83);
+}
+
+details {
+    border-radius: 4px;
+    padding: .5em .5em 0;
+    text-align: center;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+    cursor: pointer;
+    font-family: 'spoiler', sans-serif;
+    font-weight: 100;
+}
+
+details[open] {
+    padding: .5em;
+    text-decoration: none;
+}
+
+details[open] summary {
+    margin-bottom: .5em;
+    cursor: pointer;
+}
+

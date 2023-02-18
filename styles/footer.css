@@ -1,0 +1,20 @@
+@font-face {    
+    font-family: 'footer';    
+    src: url('../resources/name.otf') format('opentype');     
+}
+
+footer {
+    font-family: 'footer', sans-serif;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    background-color: #EEEEEE;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5px;
+    box-shadow: 10px 5px 5px black;
+}
+
+.footer-align {
+    display: inline;
+   }

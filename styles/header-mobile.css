@@ -1,0 +1,35 @@
+@font-face {    
+    font-family: 'name';    
+    src: url('../resources/name.otf') format('opentype');     
+}
+@font-face {    
+    font-family: 'surname';    
+    src: url('../resources/surname.otf') format('opentype');     
+}
+
+.name-wrapper {
+    text-align: center;
+}
+
+.name{
+    font-family: 'name', sans-serif;
+    text-align: left;
+}
+.name, .surname {
+font-size: 2em;
+}
+
+.surname, .surnametwo {
+font-family: 'surname', sans-serif;
+}
+.nameone, .surname, .pfp {
+display:inline;
+}
+.nametwo, .surnametwo {
+display: inline;
+}
+
+.pfp{
+border-radius: 50%;
+vertical-align:-30px;
+}
